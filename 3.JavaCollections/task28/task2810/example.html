@@ -1,0 +1,2496 @@
+<!doctype html>
+<html class="layout no-js xs-friendly hh">
+<head>
+    <script>(function(H){
+            H.className=H.className.replace(/\bno-js\b/,'js');
+        })(document.documentElement);
+        window.HH_STATIC_URI = '//i-m.hh.ru/';
+
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Вакансии (мобильная версия)
+    </title>
+    <meta name="description" content="
+    Огромное количество вакансий в вашем мобильном устройстве! Поиск работы, который всегда с вами.
+">
+    <meta name="keywords" content="
+    вакансия,работа,зарплата,Мобильные устройства
+">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="format-detection" content="telephone=no">
+    <link href="//i-m.hh.ru/favicon/hh/favicon-32x32.png" rel="icon"
+          sizes="32x32" type="image/png">
+    <link href="//i-m.hh.ru/favicon/hh/favicon-16x16.png" rel="icon"
+          sizes="16x16" type="image/png">
+    <link href="//i-m.hh.ru/favicon/hh/favicon-64x64.png" rel="icon"
+          sizes="64x64" type="image/png">
+    <link rel="apple-touch-icon" sizes="76x76"
+          href="//i-m.hh.ru/favicon/hh/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120"
+          href="//i-m.hh.ru/favicon/hh/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152"
+          href="//i-m.hh.ru/favicon/hh/touch-icon-ipad-retina.png">
+    <link rel="canonical"
+          href="https://hh.ru/search/vacancy?text=java+Moscow&amp;items_on_page=20&amp;page=1">
+    <meta name="msapplication-TileImage"
+          content="//i-m.hh.ru/favicon/hh/touch-icon-ipad-retina.png">
+    <meta name="msapplication-TileColor" content="black">
+    <meta name="apple-mobile-web-app-title" content="HeadHunter">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <link rel="stylesheet" media="all" charset="utf-8"
+          href="//i-m.hh.ru/build/css/styles.caed5c.css">
+    <script>
+    window.globalVars = window.globalVars || {};
+    window.globalVars.version = '1.6.9';
+    window.globalVars.requestId = '1541888973678bbcdd00c1264c8b88b6';
+    window.globalVars.lang = 'RU';
+    window.globalVars.locale = 'ru_RU';
+    window.globalVars.siteId = '1';
+    window.globalVars.staticHost = '//i-m.hh.ru/';
+    // Используется в автотестах для определения когда проинициализировались компоненты на странице
+    window.globalVars.autotestsComponentsInitEnd = false;
+
+        window.globalVars.sentryLogging = true;
+        window.globalVars.sentryDSN = 'https://6debdf9107c64ea4a3bb06e3f63ff4a1@sentry.hh.ru/25';
+
+
+        window.globalVars.bannerParams = {"banner_front_host": "//hhcdn.ru/pv", "qs": "type=unknown&regions=113&domainAreaId=1049&token=1541888973.69637421053545434678&site=147&meta="};
+
+
+    </script>
+    <script>
+  "use strict";
+
+(function () {
+    var userAgentChecks = {
+        ieMobile: {
+            regex: /iemobile\/(\d+)/,
+            minVersion: 11
+        },
+        ie: {
+            regex: /msie (\d+)\./,
+            minVersion: 11
+        },
+        edge: {
+            regex: /edge\/(\d+)/,
+            minVersion: 12
+        },
+        firefox: {
+            regex: /firefox\/(\d+)\./,
+            minVersion: 40
+        },
+        operaMobile: {
+            regex: /opera\/(\d+).+opera mobi/,
+            minVersion: 12
+        },
+        ios: {
+            regex: /cpu(?: iphone)? os (\d+)_[\d_]+ like mac os x/i,
+            minVersion: 8
+        },
+        android: {
+            regex: /android (\d+\.\d)/,
+            minVersion: 4.1
+        },
+        safari: {
+            regex: /macintosh;.+ version\/(\d+)\.[\d.]+ safari/,
+            minVersion: 9
+        },
+        chrome: {
+            regex: /chrome\/(\d+)\./,
+            minVersion: 44
+        },
+        // Не поддерживаем
+        opera: {
+            regex: /presto\/.+ version\/(\d+)/,
+            minVersion: 999
+        },
+        operaMini: {
+            regex: /opera mini\/(\d+)/,
+            minVersion: 999
+        }
+    };
+
+    function getUserAgentDetails(userAgent) {
+        var agent = userAgent.toLowerCase();
+
+        var result = {
+            isSupported: true,
+            browser: null,
+            version: null
+        };
+
+        for (var name in userAgentChecks) {
+            var match = agent.match(userAgentChecks[name].regex);
+            if (match) {
+                var version = parseFloat(match[1]);
+                if (!isNaN(version)) {
+                    result.browser = name;
+                    result.version = version;
+                    if (version < userAgentChecks[name].minVersion) {
+                        result.isSupported = false;
+                    }
+                    break;
+                }
+            }
+        }
+        return result;
+    }
+
+    window.bloko = window.bloko || {};
+    window.bloko.getUserAgentDetails = getUserAgentDetails;
+})();
+
+    </script>
+    <script src="//i-m.hh.ru/build/js/vendors~main.d072b7.js" async></script>
+    <script src="//i-m.hh.ru/build/js/bloko~main.b187fa.js" async></script>
+    <script src="//i-m.hh.ru/build/js/styles.74719b.js" async></script>
+    <script src="//i-m.hh.ru/build/js/main.b0c9c9.js" async></script>
+    <!--google-universal-analytics counter-->
+    <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+
+
+        ga('create', 'UA-11659974-2', 'none', 'main');
+        ga('main.require', 'linkid', 'linkid.js');
+        ga('main.require', 'displayfeatures');
+
+            ga('main.set', 'dimension1', 'anonymous');
+
+                        ga('main.set', 'dimension18', 'None');
+
+
+
+
+        ga('main.send', 'pageview');
+
+
+
+    </script>
+    <!--/google-universal-analytics counter-->
+</head>
+<body class="layout">
+<div class="Bloko-Notification-Manager notification-manager">
+</div>
+<div class="page">
+    <div class="top-bar HH-Header">
+        <button type="button" class="back-button HH-Back">
+            <script data-name="Components/Back" data-params="{}"></script>
+        </button>
+        <div class="menu">
+            <script data-name="Components/Proxies/Bloko/Toggle"
+                    data-params="{&quot;expandClass&quot;: &quot;menu_active&quot;}"></script>
+            <a href="/account/login" class="login-button" data-qa="menu-button">
+                Войти </a>
+        </div>
+        <a href="/" class="top-bar__logo" data-qa="logo-icon">
+            <div class="logo"></div>
+        </a>
+    </div>
+    <div class="content HH-Content HH-Sticky-Container">
+        <div class="HH-Unsupported-Browser important-info important-info_invisible">
+            Ваш браузер устарел и&nbsp;больше не&nbsp;поддерживается. Для
+            корректной работы сайта рекомендуем использовать один из&nbsp;современных
+            браузеров.
+            <a href="/article/176" class="important-info__link"> Узнать&nbsp;подробнее </a>
+        </div>
+        <script>
+    (function() {
+        if (!window.bloko || !window.bloko.getUserAgentDetails) {
+            return
+        }
+        if (!window.bloko.getUserAgentDetails(window.navigator.userAgent).isSupported) {
+            var div = document.querySelector('.HH-Unsupported-Browser');
+            div.classList.remove('important-info_invisible');
+        }
+    })();
+
+        </script>
+        <form class="searchbox">
+            <script data-name="Components/Search/PositionSuggest"
+                    data-params="{&quot;positions&quot;: [], &quot;instantSearch&quot;: true, &quot;dropdownOnFocus&quot;: true}"></script>
+            <input type="hidden" name="currency_code" value="RUR">
+            <div class="bloko-control-group">
+                <div class="bloko-control-group__main">
+                    <input class="bloko-input HH-PositionSuggest-Input HH-PositionSuggest-Anchor"
+                           type="search" name="text"
+                           placeholder="Должность, зарплата, ключевые слова"
+                           data-qa="search-text" value="java Moscow">
+                </div>
+                <div class="bloko-control-group__minor">
+                    <button class="bloko-button bloko-button_primary bloko-button_icon-only"
+                            type="submit" data-qa="search-button"><span
+                            class="bloko-button__icon"> <span
+                            class="bloko-icon bloko-icon_search bloko-icon_initial-inverted"></span> </span>
+                    </button>
+                </div>
+            </div>
+        </form>
+        <div class="searchbox-more-actions">
+            <script data-name="Components/Sticky"
+                    data-params="{&quot;position&quot;: &quot;top&quot;, &quot;stickyClass&quot;: &quot;searchbox-more-actions_sticky&quot;}"></script>
+            <div class="searchbox-more-actions__action">
+                <form class="searchbox-autosearch" method="POST"
+                      action="/applicant/autosearch/add?text=java+Moscow&amp;currency_code=RUR&amp;page=1">
+                    <input type="hidden" name="_xsrf"
+                           value="1de7669a35596983f198be3343ec3450">
+                    <input type="hidden" name="backurl"
+                           value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1"
+                           class="HH-Autosearch-Button-Backurl">
+                    <button type="submit" class="searchbox-autosearch__submit"
+                            data-qa="search-add-autosearch">
+                        <script data-name="Components/TrackAnalyticsEvent"
+                                data-params="{&quot;on&quot;: &quot;click&quot;, &quot;category&quot;: &quot;applicant&quot;, &quot;event&quot;: &quot;saved_search&quot;, &quot;label&quot;: &quot;save&quot;}"></script>
+                        <span class="searchbox-more-actions__icon-wrapper"> <span
+                                class="searchbox-more-actions__icon searchbox-more-actions__icon_autosearch"></span> </span>
+                        <span class="searchbox-more-actions__text"> Подписаться </span>
+                    </button>
+                </form>
+            </div>
+            <a class="searchbox-more-actions__action"
+               href="/vacancies_nearby?text=java+Moscow&amp;currency_code=RUR">
+                <span class="searchbox-more-actions__icon-wrapper"> <span
+                        class="searchbox-more-actions__icon searchbox-more-actions__icon_to-map"></span> </span>
+                <span class="searchbox-more-actions__text"> На карте </span>
+            </a>
+        </div>
+        <div class="searchbox-hint" data-qa="search-hint">
+            <span class="searchbox-hint__number">2185</span> вакансий
+        </div>
+        <div class="dashboard-group dashboard-group_nopadding">
+            <ul class="vacancy-list" data-qa="search-vacancy-container">
+                <script type="text/html" class="HH-Favorite-Limit-Template">
+                    Превышен лимит количества избранных вакансий.
+                    <button class="HH-Favorite-Cleanup bloko-notification__link">
+                        Удалить самую старую вакансию и добавить эту
+                    </button>
+                </script>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28684678" data-vacancy-id="28684678"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28684678"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28684678">
+                            <input type="hidden" name="vacancyId"
+                                   value="28684678">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Ведущий разработчик Java
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">120 000 – 220 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        NPBFX Limited&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <span><span class="highlight">Java</span> 8 (И немного 7).</span>
+                        <p>Хорошее знание core <span
+                                class="highlight">Java</span>. - Опыт работы с
+                            фреймворками: Spring, Hibernate/JPA. - Знание SQL. -
+                            Опыт работы с вебом (HTML, CSS, JS). - </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                вчера
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28684678">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28684678"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28427885" data-vacancy-id="28427885"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28427885"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28427885">
+                            <input type="hidden" name="vacancyId"
+                                   value="28427885">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java Tech Lead
+                    </div>
+                    <span class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО Центр недвижимости от Сбербанка&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #1EBCEF"></span>Кутузовская</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Окажет помощь Компании во внедрении новых
+                            фрэймворков, платформ и языков программирования.
+                            Вырастит приемников и сможет развить разработчиков
+                            своей команды. </p>
+                        <p>Глубоко проникся идеями промышленной разработки на
+                            <span class="highlight">Java</span> 8, обожает
+                            работать с Kotlin.</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                вчера
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28427885">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28427885"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28748606" data-vacancy-id="28748606"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28748606"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28748606">
+                            <input type="hidden" name="vacancyId"
+                                   value="28748606">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java Developer (Spring)
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">120 000 – 150 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО Рукс Солюшенс&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #ADACAC"></span>Серпуховская</span>,
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #915133"></span>Добрынинская</span>,
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #F07E24"></span>Октябрьская</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Разработка нового функционала на стеке: <span
+                                class="highlight">Java</span>/Kotlin, Spring
+                            Boot, Hibernate. Планирование архитектуры с
+                            командой. Обновление техстека существующих сервисов.
+                        </p>
+                        <p>Опыт коммерческой разработки на <span
+                                class="highlight">Java</span> и Spring от 1
+                            года. Понимание как Spring устроен внутри. Опыт
+                            использования Spring Security, MVC...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28748606">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28748606"
+                       data-qa="vacancy-link"></a></li>
+                <li class="banner-place-wrapper
+
+                     banner-place_vacancy
+                ">
+                    <div class="banner-place banner-place_630"
+                         data-banner-id="630"></div>
+                </li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28421730" data-vacancy-id="28421730"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28421730"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28421730">
+                            <input type="hidden" name="vacancyId"
+                                   value="28421730">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java developer (full-stack разработчик)
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">90 000 – 130 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО ИТЦ МОЛНЕТ&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #BED12C"></span>Достоевская</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Разработка архитектуры и серверных компонентов
+                            веб-приложений. Оптимизация, повышение уровня
+                            безопасности и устойчивости существующих программных
+                            продуктов.</p>
+                        <p>Хорошее знание <span class="highlight">Java</span>
+                            SE. Опыт разработки на <span
+                                    class="highlight">Java</span> EE (JDBC,
+                            Rest, Web-Services). Знание SQL и опыт работы c
+                            реляционными...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                вчера
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28421730">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28421730"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28746437" data-vacancy-id="28746437"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28746437"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28746437">
+                            <input type="hidden" name="vacancyId"
+                                   value="28746437">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java-разработчик
+                    </div>
+                    <span class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО Райтстеп&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #F07E24"></span>Калужская</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Бизнес-направление: управление дискретным
+                            производством (более всего похоже на ERP).
+                            Проектирование: Archimate. Мы помогаем производству
+                            выполнять заказы клиентов (как частные...</p>
+                        <p>Требуется владение <span
+                                class="highlight">Java</span> 8+ (OOP,
+                            Annotations, Threads, JDBC, StreamAPI, Lambda), JS
+                            будет плюсом (мы используем Vue).</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28746437">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28746437"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28747783" data-vacancy-id="28747783"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28747783"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28747783">
+                            <input type="hidden" name="vacancyId"
+                                   value="28747783">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java-разработчик
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">до 200 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        INPAS&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #BED12C"></span>Марьина Роща</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Разработкой программного обеспечения для
+                            клиент-серверных транзакционных систем.</p>
+                        <p>Опыт работы с шифрованием данных. Опыт проектирования
+                            клиент серверных систем (способность описать
+                            архитектуру приложения, в котором разработчик
+                            принимает участие).</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28747783">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28747783"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28285663" data-vacancy-id="28285663"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28285663"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28285663">
+                            <input type="hidden" name="vacancyId"
+                                   value="28285663">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Программист Java
+                    </div>
+                    <span class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ЗАО Болид, НВП&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Компания Болид - один из крупнейших в России
+                            производителей оборудования и программного
+                            обеспечения для систем безопасности, автоматизации и
+                            диспетчеризации. </p>
+                        <p>Опыт разработки коммерческих приложений на <span
+                                class="highlight">Java</span> от 2-х лет. Знание
+                            SQL. Опыт работы с одной из СУБД: PostgreSQL,
+                            Firebird...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28285663">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28285663"
+                       data-qa="vacancy-link"></a></li>
+                <div class="serp-hint serp-hint_clusters">
+                    <script data-name="Components/ClosableBlock"
+                            data-params="{&quot;key&quot;: &quot;serp_hint_clusters&quot;, &quot;animation&quot;: &quot;slideUp&quot;}"></script>
+                    <script data-name="Components/TrackElementVisibility"
+                            data-params="{&quot;category&quot;: &quot;serp_hint&quot;, &quot;event&quot;: &quot;element_visible&quot;, &quot;label&quot;: &quot;clusters&quot;}"></script>
+                    <div class="serp-hint__header">
+                        <div class="serp-hint__subtitle">
+                            Полезные советы
+                        </div>
+                        <div class="serp-hint__title">
+                            Используйте фильтры для&nbsp;поиска вакансий
+                        </div>
+                    </div>
+                    <div class="serp-hint__content">
+                        <p class="serp-hint__content-text"> Воспользуйтесь
+                            фильтрами, чтобы<br> добавить параметры вакансий<br>
+                            и&nbsp;найти самые подходящие </p>
+                        <a href="/clusters?text=java+Moscow&amp;currency_code=RUR&amp;page=1"
+                           class="bloko-button">
+                            <script data-name="Components/TrackAnalyticsEvent"
+                                    data-params="{&quot;on&quot;: &quot;click&quot;, &quot;category&quot;: &quot;applicant&quot;, &quot;event&quot;: &quot;went_to_clusters&quot;, &quot;label&quot;: &quot;from_hint&quot;}"></script>
+                            Уточнить запрос </a>
+                    </div>
+                    <div class="serp-hint__footer">
+                        <div class="serp-hint__hide HH-ClosableBlock-Close">
+                            Скрыть подсказку
+                        </div>
+                    </div>
+                </div>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28392813" data-vacancy-id="28392813"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28392813"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28392813">
+                            <input type="hidden" name="vacancyId"
+                                   value="28392813">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Senior/Middle Java Developer
+                    </div>
+                    <span class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ITFB Group&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Создание и учаестие в разработке систем связанных с
+                            компьютерным зрением (Computer Vision) и
+                            распознаванием текстов (OCR). Создание и участие
+                            в...</p>
+                        <p>Хорошее знание <span class="highlight">Java</span>
+                            SE. Опыт в создании приложений/функций, связанных с
+                            обработкой текстов с применением регулярных
+                            выражений (Regular Expression). </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28392813">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28392813"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28247046" data-vacancy-id="28247046"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28247046"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28247046">
+                            <input type="hidden" name="vacancyId"
+                                   value="28247046">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Senior Java Developer
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">160 000 – 200 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО Управление Бизнесом&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Успешный кандидат должен обладать следующими
+                            навыками: 3+ года опыта разработки программного
+                            обеспечения на <span class="highlight">Java</span>
+                            EE. Сильные навыки <span
+                                    class="highlight">Java</span> и...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                8 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28247046">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28247046"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28349539" data-vacancy-id="28349539"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28349539"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28349539">
+                            <input type="hidden" name="vacancyId"
+                                   value="28349539">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Middle/Senior Java Developer
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">80 000 – 150 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        Extyl-pro&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #4FB04F"></span>Павелецкая</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Программировать в составе команды. Стек разработки:
+                            <span class="highlight">Java</span> SE (Spring),
+                            <span class="highlight">Java</span> EE (WebLogic),
+                            Hibernate. Развиваться! Компания выделяет и
+                            оплачивает время сотрудников...</p>
+                        <p>Владение технологиями Core <span class="highlight">Java</span>,
+                            Spring Framework или <span
+                                    class="highlight">Java</span> EE, Web
+                            services, ORM, SQL, HQL. Знание основ html, js, css.
+                        </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                8 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28349539">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28349539"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28048006" data-vacancy-id="28048006"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28048006"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28048006">
+                            <input type="hidden" name="vacancyId"
+                                   value="28048006">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java-разработчик
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">150 000 – 200 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО Айти Прайм&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #F07E24"></span>Проспект Мира</span>,
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #915133"></span>Комсомольская</span>,
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #915133"></span>Проспект Мира</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Участие в разработке системы торговли на финансовом
+                            рынке. Разработка компонентов системы котирования
+                            для систем Банка. Сопровождение (3 линия поддержки)
+                            боевой...</p>
+                        <p>Теоретические знания и практический опыт разработки
+                            на <span class="highlight">Java</span> (от 3х лет).
+                            Практический опыт работы с технологиями <span
+                                    class="highlight">Java</span> Enterprise
+                            Edition. (</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28048006">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28048006"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_24460657" data-vacancy-id="24460657"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=24460657"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_24460657">
+                            <input type="hidden" name="vacancyId"
+                                   value="24460657">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Senior Java разработчик
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">170 000 – 220 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        МойСклад&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #4FB04F"></span>Технопарк</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Будете добавлять новые и улучшать существующие
+                            функции сервиса: простой и удобный интерфейс для
+                            продавцов, графики и аналитику для
+                            руководителей. </p>
+                        <p>Имеете техническое образование. Пишете на <span
+                                class="highlight">Java</span> минимум 3 года.
+                            Уверенно знаете алгоритмы и структуры данных.
+                            Отлично знаете реляционные БД и...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=24460657">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/24460657"
+                       data-qa="vacancy-link"></a></li>
+                <li class="banner-place-wrapper
+
+                     banner-place_vacancy
+                ">
+                    <div class="banner-place banner-place_505"
+                         data-banner-id="505"></div>
+                </li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_24460745" data-vacancy-id="24460745"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=24460745"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_24460745">
+                            <input type="hidden" name="vacancyId"
+                                   value="24460745">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java разработчик
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">120 000 – 170 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        МойСклад&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #4FB04F"></span>Технопарк</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Будете добавлять новые и улучшать существующие
+                            функции сервиса: простой и удобный интерфейс для
+                            продавцов, графики и аналитику для
+                            руководителей. </p>
+                        <p>Имеете техническое образование или заканчиваете вуз.
+                            Пишете на <span class="highlight">Java</span> уже
+                            пару лет. Уверенно знаете алгоритмы и структуры
+                            данных. </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=24460745">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/24460745"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_27919013" data-vacancy-id="27919013"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=27919013"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_27919013">
+                            <input type="hidden" name="vacancyId"
+                                   value="27919013">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java-разработчик
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">150 000 – 250 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Санкт-Петербург</span>
+                    <div class="vacancy-short__company">
+                        Smekalka&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #915133"></span>Белорусская</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Прототипировать архитектуру и разрабатывать
+                            микросервисы. V2X &amp; Telemery Solution для серии
+                            гонок беспилотных автомобилей. Домашняя лаборатория
+                            для персонифицированной медицины.</p>
+                        <p>Отличное знание <span class="highlight">Java</span>
+                            8, j2ee. Понимание REST архитектуры микросервисов.
+                            Опыт работы с embedded микроконтейнерами (tomcat,
+                            jetty). </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                8 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=27919013">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/27919013"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28443910" data-vacancy-id="28443910"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28443910"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28443910">
+                            <input type="hidden" name="vacancyId"
+                                   value="28443910">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Программист Java
+                    </div>
+                    <span class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        We R.Supply&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Разработка архитектуры платформенного решения и
+                            программных модулей на <span
+                                    class="highlight">Java</span>. Разработка
+                            интеграционных приложений. Составление технической
+                            документации по разработанному программному
+                            обеспечению. </p>
+                        <p>Programming Languages: Core <span class="highlight">Java</span>
+                            (<span class="highlight">Java</span> SE) → <span
+                                    class="highlight">Java</span> EE. -
+                            Databases: SQL / MySQL. - HTTP Servers, Application
+                            Servers / Servlet Containers: Apache Server. - </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                8 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28443910">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28443910"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_26893410" data-vacancy-id="26893410"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=26893410"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_26893410">
+                            <input type="hidden" name="vacancyId"
+                                   value="26893410">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java-разработчик
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">от 120 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        Ticketland.ru&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #4FB04F"></span>Павелецкая</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Создание современной высоконагруженной билетной
+                            системы Ticketland.ru.</p>
+                        <p>Высшее профильное образование. Опыт не так важен.
+                            Приветствуются начинающие специалисты готовые
+                            учиться и развиваться. Уровень Middle/Senior.
+                            Обязательно знание: JSF. </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=26893410">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/26893410"
+                       data-qa="vacancy-link"></a></li>
+                <div class="serp-hint serp-hint_address">
+                    <script data-name="Components/ClosableBlock"
+                            data-params="{&quot;key&quot;: &quot;serp_hint_address&quot;, &quot;animation&quot;: &quot;slideUp&quot;}"></script>
+                    <script data-name="Components/TrackElementVisibility"
+                            data-params="{&quot;category&quot;: &quot;serp_hint&quot;, &quot;event&quot;: &quot;element_visible&quot;, &quot;label&quot;: &quot;address&quot;}"></script>
+                    <div class="serp-hint__header">
+                        <div class="serp-hint__title">
+                            Вакансии рядом с&nbsp;домом по&nbsp;вашему запросу
+                        </div>
+                    </div>
+                    <div class="serp-hint__content">
+                        <script data-name="Components/Maps/AddressFormSerp"
+                                data-params="{&quot;addressParams&quot;: {&quot;addressSaveIsEnabled&quot;: false, &quot;currentAddress&quot;: {}}, &quot;trl&quot;: {&quot;submit&quot;: {&quot;defaultValue&quot;: &quot;\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0438&quot;, &quot;show&quot;: &quot;\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c &quot;, &quot;notFound&quot;: &quot;\u041d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e&quot;, &quot;vacancies&quot;: {&quot;one&quot;: &quot; \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u044e&quot;, &quot;some&quot;: &quot; \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0438&quot;, &quot;many&quot;: &quot; \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0439&quot;}, &quot;askToSaveAddress&quot;: &quot;\u0425\u043e\u0442\u0438\u0442\u0435 \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0434\u043e\u043c\u0430\u0448\u043d\u0435\u0433\u043e?\r\n\u042d\u0442\u0430 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043f\u043e\u043c\u043e\u0436\u0435\u0442 \u043d\u0430\u043c \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0442\u044c \u0432\u0430\u043c \u043d\u0430\u0438\u0431\u043e\u043b\u0435\u0435 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0435 \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0438. \u0412\u044b \u0432\u0441\u0435\u0433\u0434\u0430 \u043c\u043e\u0436\u0435\u0442\u0435 \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441 \u0432 \u043b\u0438\u0447\u043d\u043e\u043c \u043a\u0430\u0431\u0438\u043d\u0435\u0442\u0435.&quot;}, &quot;saveHint&quot;: &quot;\u042d\u0442\u043e \u043f\u043e\u043c\u043e\u0436\u0435\u0442 \u043d\u0430\u043c \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0442\u044c \u0432\u0430\u043c \u043d\u0430\u0438\u0431\u043e\u043b\u0435\u0435 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0435 \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0438. \u0412\u044b \u0432\u0441\u0435\u0433\u0434\u0430 \u043c\u043e\u0436\u0435\u0442\u0435 \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441 \u0432\u00a0\u043b\u0438\u0447\u043d\u043e\u043c \u043a\u0430\u0431\u0438\u043d\u0435\u0442\u0435.&quot;}}"></script>
+                        <form class="HH-AddressForm" action="/vacancies">
+                            <input type="hidden" name="text"
+                                   value="java Moscow">
+                            <input type="hidden" name="currency_code"
+                                   value="RUR">
+                            <input class="HH-AddressForm-SortPointLat"
+                                   type="hidden" name="sort_point_lat">
+                            <input class="HH-AddressForm-SortPointLng"
+                                   type="hidden" name="sort_point_lng">
+                            <input class="HH-AddressForm-TopRightLat"
+                                   type="hidden" name="top_right_lat">
+                            <input class="HH-AddressForm-TopRightLng"
+                                   type="hidden" name="top_right_lng">
+                            <input class="HH-AddressForm-BottomLeftLat"
+                                   type="hidden" name="bottom_left_lat">
+                            <input class="HH-AddressForm-BottomLeftLng"
+                                   type="hidden" name="bottom_left_lng">
+                            <div class="serp-hint__content-text">
+                            </div>
+                            <div class="address-form__item">
+                                <label class="bloko-input-wrapper HH-AddressForm-Address">
+                                    <input class="bloko-input Bloko-Address-Input"
+                                           type="text" name="address"
+                                           placeholder="Введите адрес">
+                                    <button type="button"
+                                            class="bloko-icon-link Bloko-Address-ResolveLocation">
+                                        <span class="bloko-icon bloko-icon_geolocation bloko-icon_initial-unique"></span>
+                                    </button>
+                                    <span class="bloko-input-wrapper__loading-icon"> <span
+                                            class="bloko-icon bloko-icon_loading bloko-icon_initial-primary"></span> </span>
+                                </label>
+                            </div>
+                            <button class="bloko-button bloko-button_primary bloko-button_stretched HH-AddressForm-Submit"
+                                    disabled> Показать вакансии
+                            </button>
+                            <input type="hidden" name="order_by"
+                                   value="distance">
+                        </form>
+                    </div>
+                    <div class="serp-hint__footer">
+                        <div class="serp-hint__hide HH-ClosableBlock-Close">
+                            Скрыть подсказку
+                        </div>
+                    </div>
+                </div>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28289417" data-vacancy-id="28289417"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28289417"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28289417">
+                            <input type="hidden" name="vacancyId"
+                                   value="28289417">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java-разработчик
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">до 170 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ITFB Group&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Работа в совместной agile-команде с заказчиком.
+                            Разработка программного обеспечения по требованиям
+                            заказчика. Проектирование и реализация законченных
+                            функциональных модулей системы. </p>
+                        <p>Высшее техническое образование. Опыт работы в роли
+                            разработчика от 1 года. Знание технологий: Spring,
+                            Hibernate, JMS, JAX-WS, JAX-RS. </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28289417">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28289417"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_27974236" data-vacancy-id="27974236"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=27974236"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_27974236">
+                            <input type="hidden" name="vacancyId"
+                                   value="27974236">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Старший Java-разработчик
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">от 150 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        РеИнформ Инт.&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Разработка на <span class="highlight">Java</span>
+                            серверных компонент для клиент-серверных приложений.
+                            Разработка интеграционных компонент и сервисов на
+                            <span class="highlight">Java</span>. Участие в
+                            тестировании разработанных...</p>
+                        <p>Высшее профильное образование. Опыт разработки <span
+                                class="highlight">Java</span>-приложений на
+                            J2EE. Опыт JUnit, Ant, Maven. Чтение технической
+                            документации на английском. </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=27974236">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/27974236"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28657282" data-vacancy-id="28657282"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28657282"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28657282">
+                            <input type="hidden" name="vacancyId"
+                                   value="28657282">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Senior Java-разработчик (Spring Boot)
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">140 000 – 200 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        SOFTLANTIC&nbsp;
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #4FB04F"></span>Технопарк</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Проект по переносу крупных банковских систем на новые
+                            технологии (интернет-банк, мобильные приложения,
+                            платёжные сервисы и многое, многое другое). </p>
+                        <p>Отличные знания <span class="highlight">Java</span>.
+                            Знания Spring и Spring Boot, Docker и Groovy. Умение
+                            использовать различные инструменты для тестирования
+                            кода и приложений...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28657282">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28657282"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28374930" data-vacancy-id="28374930"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28374930"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28374930">
+                            <input type="hidden" name="vacancyId"
+                                   value="28374930">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Senior Backend Developer (Java)
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">от 200 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        Адвантум&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #4FB04F"></span>Динамо</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Проектирования и реализации масштабируемых,
+                            отказоустойчивых систем обработки больших потоков
+                            данных в реальном времени на базе микросервисной
+                            архитектуры. Предстоит писать сложные...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28374930">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28374930"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28395131" data-vacancy-id="28395131"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28395131"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28395131">
+                            <input type="hidden" name="vacancyId"
+                                   value="28395131">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java Senior Developer
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">от 180 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО Ньютон Технологии&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>PHP для предоставления данных приложению и сайту.
+                            Airflow для data pipelines. <span class="highlight">Java</span>
+                            для имплементации сервисов с бизнес логикой. </p>
+                        <p>Знание <span class="highlight">Java</span> SE:
+                            collections, IO, etc. Понимание и навыки
+                            multithreaded / concurrent programming. Опыт с
+                            Spring. Знание SQL и опыт работы...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28395131">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28395131"
+                       data-qa="vacancy-link"></a></li>
+                <li class="banner-place-wrapper
+
+                     banner-place_vacancy
+                ">
+                    <div class="banner-place banner-place_333"
+                         data-banner-id="333"></div>
+                </li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_24332042" data-vacancy-id="24332042"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=24332042"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_24332042">
+                            <input type="hidden" name="vacancyId"
+                                   value="24332042">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java Lead Developer
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">110 000 – 130 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Тверь</span>
+                    <div class="vacancy-short__company">
+                        TeamIdea (ООО ТИМИДЕЯ ГРУПП)&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Технический английский. Обязательно: Опыт работы в
+                            качестве <span class="highlight">Java</span>-разработчика
+                            от 5-ти лет. Опыт работы с инструментами сборки
+                            Maven/ANT. </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=24332042">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/24332042"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_27784966" data-vacancy-id="27784966"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=27784966"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_27784966">
+                            <input type="hidden" name="vacancyId"
+                                   value="27784966">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java Developer (Junior / Middle / Senior / Tech Lead)
+                    </div>
+                    <span class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        Wiley&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>проектирование и реализация лучших в отрасли
+                            информационных систем. - активное участие в развитии
+                            команды. - инициативность в оптимизации и
+                            модернизации существующей экосистемы...</p>
+                        <p>Обязательно: - опыт работы по специальности от года.
+                            - опыт промышленной разработки на <span
+                                    class="highlight">Java</span>. - умение
+                            работать в большой команде. - желание развиваться
+                            и...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=27784966">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/27784966"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28244759" data-vacancy-id="28244759"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28244759"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28244759">
+                            <input type="hidden" name="vacancyId"
+                                   value="28244759">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java-разработчик
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">до 90 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО ЛОКАСОФТ&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #E42313"></span>Воробьевы горы</span>,
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #F9BCD1"></span>Лужники</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Разработка GUI, бизнес логики. Разработка
+                            WEB-сервисов. Обеспечение контроля версий.
+                            Проведение первичного тестирования.</p>
+                        <p>Уверенное владение <span
+                                class="highlight">Java</span> (основы,
+                            стандартная библиотека, многопоточность). Знание
+                            основ <span class="highlight">Java</span> EE
+                            (сервлеты, EJB). Умение работать с БД (Хорошее
+                            знание SQL...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                8 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28244759">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28244759"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28500456" data-vacancy-id="28500456"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28500456"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28500456">
+                            <input type="hidden" name="vacancyId"
+                                   value="28500456">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java-разработчик backend
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">80 000 – 180 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО ИнформТех&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #0072BA"></span>Бауманская</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Аналитик-Разработчик, для участия в проектах создания
+                            и развития фронт-офисных систем.</p>
+                        <p>высшее техническое образование (полное и неполное). -
+                            опыт разработки приложений J2EE (Servlet, JSP,
+                            Spring MVC, EJB 3.0, JDBC). - </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28500456">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28500456"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28344425" data-vacancy-id="28344425"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28344425"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28344425">
+                            <input type="hidden" name="vacancyId"
+                                   value="28344425">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Главный Java разработчик / Team Lead Java
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">250 000 – 300 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО Системы Дистанционного Обучения&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Разработка высокопроизводительного ПО. Управление
+                            командой разработки (в случае если кандидат
+                            располагает своей сработанной командой, готовы
+                            рассмотреть соискателей, предложенных
+                            кандидатом). </p>
+                        <p>Высокий уровень знаний <span
+                                class="highlight">Java</span>. Опыт коммерческой
+                            разработки на <span class="highlight">Java</span> от
+                            5 лет. Знание паттернов проектирования и умение их
+                            применять в...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28344425">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28344425"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_26609599" data-vacancy-id="26609599"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=26609599"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_26609599">
+                            <input type="hidden" name="vacancyId"
+                                   value="26609599">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java developer
+                    </div>
+                    <span class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ПАО НИС&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #4FB04F"></span>Технопарк</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Smart Car – услуга предназначена для обеспечения
+                            владельца автомобиля информацией о местонахождении и
+                            состоянии автомобиля, комплексной аналитической
+                            информацией и событиях, связанных...</p>
+                        <p>наличие высшего технического образования. - хорошее
+                            знание <span class="highlight">Java</span> EE, OSGi,
+                            Spring. - стандартные алгоритмы и структуры данных:
+                            знание как устроены коллекции и...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                8 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=26609599">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/26609599"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28667365" data-vacancy-id="28667365"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28667365"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28667365">
+                            <input type="hidden" name="vacancyId"
+                                   value="28667365">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Ведущий разработчик (Java)
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">до 235 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО ИНТЕР РАО ИТ&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #E42313"></span>Фрунзенская</span>,
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #E42313"></span>Спортивная</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Написание кода и отладка программ с использованием
+                            соответствующих программных и аппаратных средств,
+                            баз данных и технологий программирования, принятых в
+                            компании.</p>
+                        <p>Обязателен опыт программирования на языке <span
+                                class="highlight">java</span>. Умение
+                            разбираться в чужом коде. Хорошее владение <span
+                                    class="highlight">Java</span> (Concurrency,
+                            Hibernate, JDBC, JAXB, XML, Webservices). </p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                9 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28667365">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28667365"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28435866" data-vacancy-id="28435866"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28435866"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28435866">
+                            <input type="hidden" name="vacancyId"
+                                   value="28435866">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java-разработчик
+                    </div>
+                    <span class="vacancy-short__salary"
+                          data-qa="vacancy-salary">от 80 000<span
+                            class="currency">₽</span></span> <span
+                        class="vacancy-short__city">Новосибирск</span>
+                    <div class="vacancy-short__company">
+                        Brooma&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>Командная работа над продуктами компании. Разработка
+                            новых компонент и модулей. Автоматизация
+                            тестирования (JUnit тестирование). Анализ, контроль
+                            и улучшение качества кода.</p>
+                        <p>Опыт от 2+ года в качестве <span class="highlight">Java</span>
+                            разработчика в коммерческих проектах. Отличные
+                            знания <span class="highlight">Java</span> Core.
+                            Опыт работы со Spring...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                8 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <button class="HH-VacancyContacts-Switcher vacancy-short-footer__button-wrapper"
+                                    data-qa="vacancy-item-contacts-switcher">
+                                Контакты
+                            </button>
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28435866">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <ul class="HH-VacancyContacts-Container vacancy-short__contacts g-hidden"
+                        data-qa="vacancy-item-contacts">
+                    </ul>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28435866"
+                       data-qa="vacancy-link"></a></li>
+                <li class="vacancy-short vacancy-short_standard_plus HH-VacancyContacts-Item"
+                    id="vacancy_28334147" data-vacancy-id="28334147"
+                    data-qa="vacancy-item">
+                    <div class="favorite-action">
+                        <form method="post"
+                              action="/favorite/add?vacancyId=28334147"
+                              class="HH-Favorite-Form">
+                            <input type="hidden" name="_xsrf"
+                                   value="1de7669a35596983f198be3343ec3450">
+                            <input type="hidden" name="backurl"
+                                   value="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1#vacancy_28334147">
+                            <input type="hidden" name="vacancyId"
+                                   value="28334147">
+                            <button type="submit" class="favorite-button
+
+
+                           HH-Favorite-Button" data-qa="favorites-add"
+                                    data-action="add"></button>
+                        </form>
+                    </div>
+                    <div class="vacancy-short__name" data-qa="vacancy-name">
+                        Java-разработчик
+                    </div>
+                    <span class="vacancy-short__city">Москва</span>
+                    <div class="vacancy-short__company">
+                        ООО ПАРАМИТЕК&nbsp;
+                        <span class="bloko-icon bloko-icon_done bloko-icon_initial-action"></span>
+                    </div>
+                    <div class="vacancy-short__metros">
+                        <span class="vacancy-short__metro"> <span
+                                class="bloko-metro-pin"
+                                style="background: #4FB04F"></span>Сокол</span>
+                    </div>
+                    <div class="vacancy-short__snippet">
+                        <p>...технологических программных платформах <span
+                                class="highlight">Java</span>-SE, <span
+                                class="highlight">Java</span>-EE. - Разработка
+                            интеграционных программных модулей для
+                            взаимодействия со сторонними системами (<span
+                                    class="highlight">Java</span>, XML, JSON,
+                            REST). - </p>
+                        <p>Опыт разработки с использованием и пониманием
+                            объектно-ориентированного программирования от 2-х
+                            лет. - Обязательные требования: <span
+                                    class="highlight">Java</span>-SE, SQL, JDBC,
+                            XML...</p>
+                    </div>
+                    <div class="vacancy-short-footer">
+                        <div class="vacancy-short-footer-item">
+                            <div class="vacancy-short__pubdate"
+                                 data-qa="vacancy-pubdate">
+                                8 ноября
+                            </div>
+                        </div>
+                        <div class="vacancy-short-footer-item">
+                            <a class="vacancy-short-footer__button-wrapper"
+                               href="/vacancy_response?vacancy_id=28334147">
+                                Откликнуться </a>
+                        </div>
+                    </div>
+                    <a class="vacancy-short__link-overlay"
+                       href="https://m.hh.ru/vacancy/28334147"
+                       data-qa="vacancy-link"></a></li>
+                <script data-name="Components/VacancyContacts/Composite"
+                        data-params="{&quot;component&quot;: &quot;VacancyContacts&quot;, &quot;trl&quot;: {&quot;show&quot;: &quot;\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b&quot;, &quot;hide&quot;: &quot;\u0421\u043a\u0440\u044b\u0442\u044c&quot;, &quot;error&quot;: &quot;\u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437&quot;, &quot;error404&quot;: &quot;\u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443&quot;}}"></script>
+            </ul>
+        </div>
+        <div class="banner-place-wrapper
+
+                     banner-place_separated
+
+                     banner-place_clickme
+                ">
+            <div class="banner-place banner-place_661"
+                 data-banner-id="661"></div>
+            <div class="banner-place banner-place_662"
+                 data-banner-id="662"></div>
+            <div class="banner-place banner-place_663"
+                 data-banner-id="663"></div>
+        </div>
+        <div class="floating-clusters-link">
+            <div class="floating-clusters-link__floater">
+                <script data-name="Components/Sticky"
+                        data-params="{&quot;position&quot;: &quot;bottom&quot;, &quot;stickyClass&quot;: &quot;floating-clusters-link_sticky&quot;}"></script>
+                <a class="floating-clusters-link__button"
+                   href="/clusters?text=java+Moscow&amp;currency_code=RUR&amp;page=1">
+                    Фильтры </a>
+            </div>
+        </div>
+        <div class="paging" data-qa="paging-container">
+            <a class="paging-item paging-item_previous"
+               href="?text=java+Moscow&amp;currency_code=RUR&amp;page=0"
+               data-qa="paging-previous">&nbsp;</a>
+            <a class="paging-item"
+               href="?text=java+Moscow&amp;currency_code=RUR&amp;page=0">1</a>
+            <span class="paging-item paging-item_active"
+                  data-qa="paging-page">2</span>
+            <a class="paging-item"
+               href="?text=java+Moscow&amp;currency_code=RUR&amp;page=2">3</a>
+            <a class="paging-item"
+               href="?text=java+Moscow&amp;currency_code=RUR&amp;page=3">4</a>
+            <a class="paging-item"
+               href="?text=java+Moscow&amp;currency_code=RUR&amp;page=4">5</a>
+            <a class="paging-item paging-item_next"
+               href="?text=java+Moscow&amp;currency_code=RUR&amp;page=2"
+               data-qa="paging-next">&nbsp;</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__column">
+            <h3 class="footer__header">Приложения</h3>
+            <a href="https://redirect.appmetrica.yandex.com/serve/24308004795012859?banner=footer_m.hh"
+               class="footer-item footer-item_separated"> <span class="bloko-icon bloko-icon_ios
+                                 bloko-icon_initial-inverted"></span> <span
+                    class="footer-item__description">iOS</span> </a>
+            <a href="https://redirect.appmetrica.yandex.com/serve/888999125113142013?banner=footer_m.hh"
+               class="footer-item footer-item_separated"> <span class="bloko-icon bloko-icon_android
+                                 bloko-icon_initial-inverted"></span> <span
+                    class="footer-item__description">Android</span> </a>
+            <a href="https://redirect.appmetrica.yandex.com/serve/312538381953293818?banner=footer_m.hh"
+               class="footer-item footer-item_separated"> <span class="bloko-icon bloko-icon_winphone
+                                 bloko-icon_initial-inverted"></span> <span
+                    class="footer-item__description">Windows</span> </a>
+            <p class="footer__copyright"> © 2000—2018<br> Группа компаний<br>
+                HeadHunter </p>
+        </div>
+        <div class="footer__column">
+            <h3 class="footer__header">Соцсети</h3>
+            <a class="footer-item footer-item_separated"
+               href="https://vk.com/headhunter" rel="nofollow noopener"
+               target="_blank"> <span class="bloko-icon bloko-icon_vk
+                                 bloko-icon_initial-inverted"></span> <span
+                    class="footer-item__description">ВКонтакте</span> </a>
+            <a class="footer-item footer-item_separated"
+               href="http://www.facebook.com/headhuntergroup"
+               rel="nofollow noopener" target="_blank"> <span class="bloko-icon bloko-icon_fb
+                                 bloko-icon_initial-inverted"></span> <span
+                    class="footer-item__description">Facebook</span> </a>
+            <a class="footer-item footer-item_separated"
+               href="http://www.odnoklassniki.ru/headhunter"
+               rel="nofollow noopener" target="_blank"> <span class="bloko-icon bloko-icon_ok
+                                 bloko-icon_initial-inverted"></span> <span
+                    class="footer-item__description">Одноклассники</span> </a>
+            <a class="footer-item footer-item_separated"
+               href="https://twitter.com/hh_ru" rel="nofollow noopener"
+               target="_blank"> <span class="bloko-icon bloko-icon_twitter
+                                 bloko-icon_initial-inverted"></span> <span
+                    class="footer-item__description">Twitter</span> </a>
+            <a class="footer-item footer-item_separated"
+               href="https://instagram.com/hh_ru" rel="nofollow noopener"
+               target="_blank"> <span class="bloko-icon bloko-icon_instagram
+                                 bloko-icon_initial-inverted"></span> <span
+                    class="footer-item__description">Instagram</span> </a>
+        </div>
+    </div>
+    <div class="support">
+        <h3 class="support__title">Служба поддержки</h3>
+        <div class="support__row">
+            <a class="support-chat" href="https://t.me/haddy_hh_bot">
+                <script data-name="Components/TrackAnalyticsEvent"
+                        data-params="{&quot;on&quot;: &quot;click&quot;, &quot;category&quot;: &quot;support&quot;, &quot;event&quot;: &quot;click&quot;, &quot;label&quot;: &quot;haddy&quot;}"></script>
+                <span class="support-chat__text">Помощник Хэдди (Telegram)</span>
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__column">
+            <a class="footer-item hh-nomobile-link"
+               href="https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1&amp;nomobile="
+               data-qa="footer-full-version"> <span
+                    class="logo logo_small"></span>
+                <script data-name="Components/TrackAnalyticsEvent"
+                        data-params="{&quot;on&quot;: &quot;click&quot;, &quot;category&quot;: &quot;mobile&quot;, &quot;event&quot;: &quot;exit-to-desktop&quot;, &quot;label&quot;: &quot;footer&quot;}"></script>
+                <span class="footer-item__description">Полная версия</span> </a>
+        </div>
+        <div class="footer__column">
+            <a class="footer-item" href="/usinsk/catalog" data-qa="profareas">
+                <span class="footer-item__description"> Каталог отраслей </span>
+            </a>
+        </div>
+    </div>
+    <a class="footer-feedback" href="//feedback.hh.ru" data-qa="feedback"
+       target="_blank">
+        <script data-name="Components/TrackAnalyticsEvent"
+                data-params="{&quot;on&quot;: &quot;click&quot;, &quot;category&quot;: &quot;user&quot;, &quot;event&quot;: &quot;click_copiny&quot;, &quot;label&quot;: &quot;footer&quot;}"></script>
+        Обратная связь </a>
+</div>
+<!--dmp1 counter-->
+<script>
+
+new Image().src="//sync.1dmp.io/pixel.gif?cid=1a38ad2d-8623-4917-b947-c595cdcab795&pid=ca7a9082-fb70-4d18-8da4-ca798bb2c7b8&brid=1fc3f848-e9c2-4f33-a954-6cf8e438598c&uid=66fc2107041f9ad00d7b858dcc2cba8bd0a4775c4a71be2beee60f2125f9e201";
+
+
+</script>
+<!--/dmp1 counter-->
+<!--comscore counter-->
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({c1: "2", c2: "21790979", c4: "https://m.hh.ru/vacancies?text=java+Moscow&amp;page=1"});
+    (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+
+</script>
+<noscript>
+    <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=21790979&amp;c4=https%3A//m.hh.ru/vacancies%3Ftext%3Djava%2BMoscow%26page%3D1">
+</noscript>
+<!--/comscore counter-->
+<!--live-internet counter-->
+<script>
+            new Image().src="//counter.yadro.ru/hit;HeadHunter?t14.6;r"+escape(document.referrer)+
+                ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+
+                        (screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";h"+
+                escape(document.title.substring(0,80))+";"+Math.random()
+
+</script>
+<!--/live-internet counter-->
+<!--statad counter-->
+<script>
+        (function(d, w, nav) {
+          function serialize(obj) {
+            return Object.keys(obj)
+              .map(function(key) {
+                return [key, obj[key]].join('=');
+              })
+              .join('&');
+          }
+
+          var s = w && w.sessionStorage ? w.sessionStorage : {};
+          var query = {
+            u: encodeURIComponent(document.URL),
+            r: encodeURIComponent(document.referrer)
+          };
+
+          try {
+            var e = d.documentElement;
+            query.w = w.top === w ? 1 : 0;
+            query.h = d.hidden ? 1 : 0;
+            query.gW = Math.max(e.clientWidth, w.innerWidth || 0);
+            query.gH = Math.max(e.clientHeight, w.innerHeight || 0);
+            query.gDH = Math.max(d.body.scrollHeight, e.scrollHeight, d.body.offsetHeight, e.offsetHeight, d.body.clientHeight, e.clientHeight);
+            query.gDW = Math.max(d.body.scrollWidth, e.scrollWidth, d.body.offsetWidth, e.offsetWidth, d.body.clientWidth, e.clientWidth);
+            query.c = (function() {
+              var conn = '';
+              if (nav && nav.connection) {
+                if (nav.connection.type) conn = nav.connection.type;
+                else if (nav.connection.effectiveType) conn = 'eff:' + nav.connection.effectiveType;
+              }
+              return conn;
+            })();
+            query.t = s && s._tid ? s._tid : (s._tid = Date.now());
+          } catch (e) {}
+
+          var path = 'https://statad.ru/pixel.gif';
+          var qs = serialize(query);
+          new Image().src = [path, '?', qs].join('');
+        })(document, window, navigator);
+
+</script>
+<!--/statad counter-->
+<!--google-universal-analytics counter-->
+<script async src="//www.google-analytics.com/analytics.js"></script>
+<!--/google-universal-analytics counter-->
+<!--yandex counter-->
+<script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter24740993 = new Ya.Metrika({
+                        id: 24740993,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        clickmap: true,
+                        params: {status: 'anonymous'},
+                        webvisor: true
+                        });
+                    window.yaMetrikaInstance = window.yaMetrikaInstance || w.yaCounter24740993;
+
+                    w.yaCounter156828 = new Ya.Metrika({
+                        id: 156828,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        clickmap: true,
+                        params: {status: 'anonymous'},
+                        webvisor: false
+                        });
+                    window.yaMetrikaInstance = window.yaMetrikaInstance || w.yaCounter156828;
+                } catch(e) { }
+                if (window.yaMetrikaLoadedCallback instanceof Function) {
+                    window.yaMetrikaLoadedCallback();
+                }
+            });
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+
+</script>
+<noscript>
+    <div>
+        <img src="https://mc.yandex.ru/watch/24740993"
+             style="position:absolute; left:-9999px;" alt="">
+        <img src="https://mc.yandex.ru/watch/156828"
+             style="position:absolute; left:-9999px;" alt="">
+    </div>
+</noscript>
+<!--/yandex counter-->
+</body>
+</html>
